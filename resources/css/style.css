@@ -1,0 +1,127 @@
+html {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+}
+
+header span {
+    padding: 10px;
+}
+
+header a {
+    color: inherit;
+}
+
+nav {
+    margin-right: 10px;
+    text-align: right;
+    flex-grow: 1;
+}
+
+.banner {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img6.jpg");
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner .mission{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.tofmonth {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.tofmonth img {
+    height: 200px;
+    width: 300px;
+    padding: 0px;
+}
+
+.tofmonth h3 {
+    font-size: 1rem;
+    text-align: center
+}
+
+.locations {
+    display: flex;
+    background-image: url("../images/img5.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#label {
+    width: 100%;
+    height: 1em;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 1;
+    flex-basis: 300px;
+    height: 300px;
+    margin: 0 20px;
+    flex-shrink: 1;
+}
+
+#copyright {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#contact {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*"https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg"*/

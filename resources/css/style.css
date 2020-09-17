@@ -11,8 +11,6 @@ body {
 
 header {
     background-color: black;
-    margin-top: 0;
-    padding-top: 0;
     width: 100%;
     z-index: 5;
     position: fixed;
@@ -71,7 +69,7 @@ nav {
 .tofmonth img {
     height: 200px;
     width: 300px;
-    padding: 0px;
+    padding: 0 10px;
 }
 
 .tofmonth h3 {
@@ -121,7 +119,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 /*"https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg"*/

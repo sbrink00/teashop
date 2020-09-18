@@ -27,11 +27,8 @@ header img {
     padding-left: 10px;
 }
 
-header span {
-    padding: 10px;
-}
-
 header a {
+    padding: 10px;
     color: inherit;
 }
 
@@ -107,13 +104,13 @@ nav {
     flex-shrink: 1;
 }
 
-#copyright {
+.copyright {
     margin-left: 20px;
     margin-bottom: 20px;
     text-align: left;
 }
 
-#contact {
+.contact {
     margin: 0 auto;
     margin-bottom: 30px;
     height: 200px;
@@ -122,4 +119,6 @@ nav {
     align-items: center;
 }
 
-/*"https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg"*/
+.contact a {
+    color: inherit;
+}
